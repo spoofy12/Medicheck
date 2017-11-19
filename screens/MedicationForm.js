@@ -19,7 +19,7 @@ export default class MedicationForm extends React.Component {
       <View style={styles.container}>
          <View style={styles.list}>
 			<CheckBox
-			  label='Label'
+			  label='Panadol'
 			  checked={true}
 			  onChange={(checked) => console.log('I am checked', checked)}
 			/>
